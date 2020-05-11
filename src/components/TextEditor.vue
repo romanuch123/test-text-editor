@@ -112,7 +112,6 @@ export default {
       });
     },
     changeColor() {
-      this.editText();
       const selectedText = this.selectedText();
       if (selectedText.toString()) {
         const firstSelectedBlock = selectedText.anchorNode.parentElement;
@@ -195,7 +194,6 @@ export default {
       }
     },
     changeBackgroundColor() {
-      this.editText();
       const selectedText = this.selectedText();
       if (selectedText.toString()) {
         const firstSelectedBlock = selectedText.anchorNode.parentElement;
@@ -278,7 +276,6 @@ export default {
       }
     },
     changeFontSize() {
-      this.editText();
       const selectedText = this.selectedText();
       if (selectedText.toString()) {
         const firstSelectedBlock = selectedText.anchorNode.parentElement;
